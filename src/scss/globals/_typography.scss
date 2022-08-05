@@ -1,0 +1,14 @@
+h1, h2, h3 {
+    font-weight: 700; //bold of 700
+    line-height: 1.1; // line height should be 110% of font size
+    margin-top: 0; // remove margin-top used by browser
+}
+
+
+p {
+    margin-top: 0;
+}
+
+a, a:visited, a:active{
+    text-decoration: none;
+}

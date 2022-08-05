@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box; // use html inside the box without overflow 
+    font-size: 100%; // use default 16px
+}
+
+
+*, *::before, *::after{
+    box-sizing: inherit; // inherit boxsizing property from html or whole file
+}
+
+body {
+    margin: 0; // remove broswer default margin and padding
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 13%);
+    color: hsl(0, 0, 100%);
+  }
